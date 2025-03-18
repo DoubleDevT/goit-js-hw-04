@@ -6,6 +6,13 @@ function calcAverageCalories(days) {
     return sumOfCalories === 0 ? sumOfCalories : sumOfCalories / days.length;
 }
 
+console.log(`
+
+------------------
+----- Task-2 -----
+::
+::`);
+
 console.log(
     calcAverageCalories([
         { day: "monday", calories: 3010 },
